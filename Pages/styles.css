@@ -1,0 +1,812 @@
+body { margin: 0; color:rgb(100,100,100); font-family: 'Lato', sans-serif; }
+
+.clear { clear: both; }
+.center { text-align: center; }
+
+header {
+    width: 100%;
+    height: 60px;
+    min-width: 300px;
+    background: #ecf0f1;
+    padding: 5px 0;
+    position: fixed; 
+    z-index: 999;
+}
+
+#logo img { 
+    float: left; 
+    padding-top: 15px;
+    margin-right: 20px;
+    margin-left: 10px;
+}
+
+header h1 {
+    margin-top: 12px;
+    margin-left: -5px;
+    float: left;
+}
+
+.sidebar {
+    display: block;
+    float: right;
+    margin-right: 0px;
+    margin-top: 12px;
+}
+
+.mobile-nav-icon {
+    float: right;
+    cursor: pointer;
+    margin-top: 5px;
+    margin-right: 10px;
+    display: none;
+    border: 1px solid rgb(150,150,150);
+    padding: 4 7 4 7;
+    border-radius: 10px;
+    background-color: orange;
+    box-shadow: 0px 3px 12px 0px rgba(0,0,0,0.5), 0px 2px 0px 0px rgba(185,91,12,1), inset 0px 1px 0px 0px rgba(255,255,255,0.5);
+}
+
+.mobile-nav-icon i {
+    font-size: 200%;
+    color: #fff;
+}
+
+nav {
+    float: right; 
+    margin-top: 3px;
+}
+
+nav li { 
+    display: inline-block;
+    margin: -5 14 20 10;
+    font-weight: bold;
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid rgb(150,150,150);
+    background-color: orange;
+    box-shadow: 0px 3px 12px 0px rgba(0,0,0,0.5), 0px 2px 0px 0px rgba(185,91,12,1), inset 0px 1px 0px 0px rgba(255,255,255,0.5);
+}
+
+nav li a {
+    color: rgb(255,255,255);
+    text-decoration: none;
+}
+
+nav li:hover {
+    background-color: #f2bc8d;
+}
+
+/* HOME */
+
+section.home { 
+    color: rgb(255,255,255);
+    font-weight: 300;
+    padding: 70px 0px;
+    width: 100%;
+    height: 83%;
+    min-height: 570px;
+    min-width: 300px;
+    background-size: 100%;
+    border-bottom: 1px solid rgb(200,200,200);
+    opacity: 0.9;
+}
+
+section.hometradeblotter { 
+    background: url(trading-min.jpg) fixed no-repeat;
+}
+
+section.homeselvaflaes { 
+    background: url(vand-min2.jpg) fixed no-repeat top right;
+}
+
+#pnlimage img {
+    float: left;
+    opacity: 0.8;
+    width: 15%;
+    margin-left: 10px;
+    margin-top: 20px;
+    border-radius: 20px;
+}
+
+#hometext {
+    float: left;
+    width: 58%;
+    padding-left: 5%;
+}
+
+#riskimage img {
+    float: right;
+    opacity: 0.8;
+    width: 15%;
+    margin-right: 10px;
+    margin-top: 20px;
+    border-radius: 20px;
+}
+
+#pnlimage img:hover {
+    opacity: 1.0;
+}
+
+#riskimage img:hover {
+    opacity: 1.0;
+}
+
+section.home p {
+    color: white;
+    padding: 10px;
+    background-color: rgb(150,150,150);
+    border-radius: 20px;
+    border: 1px solid transparent;
+    max-width: 80ch;
+    opacity: 1;
+    line-height: 130%;
+    font-size: 1.2em;
+    font-weight: 200;
+}
+
+section.home p:hover {
+    border-color: white;
+}
+
+.sectionh1 {
+    font-size: 250%;
+    text-align: center;
+    padding: 10px 5px;
+    opacity: 1;
+    font-weight: 50;
+    color: white;
+}
+
+/* FEATURES */
+
+section.features {
+    width: 100%;
+    height: 90%;
+    min-height: 700px;
+    min-width: 300px;
+    background-color: #3498db;
+    border-bottom: 1px solid rgb(200,200,200);
+}
+
+section.features h2 {
+    font-weight: 300;
+    font-size: 150%;
+    color: white;
+    width: 100%;
+    text-align: center;
+    display: inline;
+    margin-left: 10px;
+    float: right;
+    -webkit-margin-before: 0px;
+    -webkit-margin-after: 0px;
+    padding-bottom: 10px;
+}
+
+section.features p {
+    line-height: 137%;
+    font-size: 86%;
+    font-weight: 200;
+}
+
+section.features i {
+    padding-top: 5px;
+    padding-left: 49%;
+    text-align: center;
+    float: left;
+}
+
+.boxleft {
+    display: block;
+    float: left;
+    border-radius: 10px;
+    padding: 10px;
+    background-color: rgb(200,200,200);
+    width: 40%;
+    height: 18%;
+    margin-left: 5%;
+    margin-bottom: 10px;
+    border: 1px solid #3498db;
+}
+
+.boxright {
+    float: right;
+    border-radius: 10px;
+    padding: 10px;
+    background-color: rgb(200,200,200);
+    width: 40%;
+    height: 18%;
+    margin-right: 5%;
+    margin-bottom: 10px;
+    border: 1px solid #3498db;
+}
+
+.boxleft:hover {
+    border: 1px solid white;
+}
+
+.boxright:hover {
+    border: 1px solid white;
+}
+
+#pnlgraphimage img {
+    display: block;
+    margin: 0 auto;
+    border-radius: 10px;
+    margin-top: 10px;
+    opacity: 0.8;
+    height: 15%;
+}
+
+#pnlgraphimage img:hover {
+    opacity: 1.0;
+    height: 16%;
+}
+
+/* FLOW */
+
+section.flow {
+    width: 100%;
+    height: 90%;
+    min-height: 780px;
+    min-width: 300px;
+    background-color: #95a5a6;
+    border-bottom: 1px solid rgb(200,200,200);
+}
+
+section.flow h2 {
+    font-weight: 50%;
+    font-size: 130%;
+    text-align: center;
+    margin-bottom: 30px;
+    color: white;
+}
+
+section.flow h3 {
+    font-size: 1.15em;
+    margin-left: 10px;
+    margin-top: 5px; 
+    margin-bottom: 8px;
+
+}
+
+section.flow h4 {
+    margin-top: 0px;
+    padding-top: 5px;
+    text-align: center;
+}
+
+.leftcontainerheader {
+    background-color: transparent;
+    width: 25%;
+    height: 30px;
+    border: 1px solid;
+    float: left;
+    margin-left: 1%;
+    border-radius: 5px;
+    margin-bott;om: 1px;
+}
+
+.midcontainerheader {
+    background-color: transparent;
+    width: 25%;
+    height: 30px;
+    border: 1px solid;
+    float: left;
+    margin-left: 11.5%;
+    border-radius: 5px;
+    margin-bottom: 1px;
+}
+
+.rightcontainerheader {
+    background-color: transparent;
+    width: 25%;
+    height: 30px;
+    border: 1px solid;
+    float: right;
+    margin-right: 1%;
+    border-radius: 5px;
+    margin-bottom: 1px;
+}
+
+.leftcontainer {
+    background-color: e1f0fa;
+    width: 25%;
+    height: 70%;
+    border: 1px solid;
+    float: left;
+    margin-left: 1%;
+    border-radius: 5px;
+}
+
+.midcontainer {
+    background-color: white;
+    width: 25%;
+    height: 70%;
+    border: 1px solid;
+    float: left;
+    margin-left: 11.5%;
+    border-radius: 5px;
+}
+
+.rightcontainer {
+    background-color: white;
+    width: 25%;
+    height: 70%;
+    border: 1px solid;
+    float: right;
+    margin-right: 1%;
+    border-radius: 5px;
+}
+
+section.flow li {
+    justify-content: center;
+    padding-top: 10%;
+    align-content: center;
+    border: 1px solid;
+    display: block;
+    margin-top: 10px;
+    border-radius: 5px;
+    margin-left: -20px;
+    width: 100%;
+    text-align: center;
+    font-size: 200%;
+}
+
+section.flow p {
+    font-size: 50%;
+}
+
+div.midcontainer li {
+    background-color: d3e9f7;
+    height: 17%;
+}
+
+div.rightcontainer li {
+    background-color: a7d3ef;
+    height: 12%;
+}
+
+.aflaesprocesscontainer {
+    background-color: d3e9f7;
+    padding: 10px;
+    margin-left: 5%;
+    margin-bottom: 20px;
+    border: 1px solid;
+    border-radius: 10px;
+    width: 90%;
+    height: 35%;
+    float:left;
+}
+
+.aflaesprocessstepcontainer {
+    background-color: a7d3ef;
+    border: 1px solid;
+    padding: 10px;
+    margin-top: 10px;
+    margin-left: 5%;
+    display: block;
+    width: 25%;
+    height: 60%;
+    float: left;
+    border-radius: 5px;
+}
+
+.aflaesprocessstepcontainer:hover {
+    border-color: white;
+}
+
+.aflaesprocessstepcontainerheader {
+    float: left;
+    display: block;
+    text-align: left;
+    width: 100%;
+    margin-bottom: 10px;
+}
+
+section.flow h6 {
+    margin-top: -5px;
+    margin-bottom: 0;
+    padding-top: 0px;
+    text-align: center;
+    float: left;
+    font-size: 120%;
+    font-weight: 200;
+    padding-right: 5px;
+}
+
+section.flow h5 {
+    margin-top: 0;
+    margin-bottom: 0;
+    font-size: 85%;
+    font-weight: 100;
+    padding-bottom: 5px;
+}
+
+/* CLIENTS */
+
+section.clients {
+    width: 100%;
+    height: 90%;
+    min-height: 680px;
+    min-width: 300px;
+    background-color: #a3b7cc;
+    border-bottom: 1px solid rgb(200,200,200);
+}
+
+section.clients h2 {
+    color: #3498db;
+    margin: 0 auto;
+    text-align: center;
+}
+
+section.clients p {
+    padding-top: 10px;
+    padding-bottom: 10px;
+    margin: 0 auto;
+    max-width: 80ch;
+}
+
+#clientimage img {
+    border-radius: 20px;
+    border: 1px solid;
+    height: 60%;
+    width: 95%;
+    opacity: 0.8;
+    margin-bottom: 10px;
+}
+
+#clientimage img:hover {
+    opacity: 1.0;
+}
+
+.clientcontainer {
+    text-align: center;
+    margin: 0 auto;
+    padding: 10px;
+    width: 80%;
+    color: white;
+    background-color: rgb(200,200,200);
+    border-radius: 10px;
+    border: 2px solid;
+}
+
+/* PRICING */
+
+section.pricing {
+    width: 100%;
+    height: 90%;
+    min-height: 680px;
+    min-width: 300px;
+    background-color: #f2bc8d;
+    border-bottom: 1px solid rgb(200,200,200);
+}
+
+section.pricing i {
+    font-size: 200%;
+}
+
+section.pricing i.ion-social-usd {
+    font-size: 100%;
+}
+
+section.pricing h2 {
+    font-weight: 50%;
+    font-size: 120%;
+    text-align: center;
+    margin-bottom: 30px;
+    color: white;
+}
+
+section.pricing aside {
+    padding-top: 20px;
+    font-size: 110%;
+    float: left;
+    width: 23.5%;
+    height: 60%;
+    text-align: center;
+    margin-left: 7%;
+    border: 1px solid;
+    border-radius: 10px;
+    background-color: rgb(200,200,200);
+}
+
+section.pricing aside:hover {
+    color: rgb(250,250,250);
+    border: 1px solid white;
+}
+
+.subscribe {
+    color: white;
+    vertical-align: middle;
+    font-weight: bold;
+    margin: 30px auto;
+    text-align: center;
+    width: 200px;
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid rgb(150,150,150);
+    background-color: orange;
+    box-shadow: 0px 3px 12px 0px rgba(0,0,0,0.5), 0px 2px 0px 0px rgba(185,91,12,1), inset 0px 1px 0px 0px rgba(255,255,255,0.5);
+}
+
+section.pricing p {
+    word-wrap: break-word;
+}
+
+.subscribe:hover {
+    background-color: #f2bc8d;
+}
+
+/* FOOTER */
+
+footer {
+    width: 100%;
+    height: 70px;
+    background: #95a5a6;
+    padding: 5px 0;
+}
+
+.greybackground {
+    background: #95a5a6;
+}
+
+#appleimage img {
+    display: inline-block;
+    border-radius: 10px;
+    height: 40px;
+    margin-top: 6px;
+    margin-bottom: 1px;
+    opacity: 0.7;
+}
+
+#appleimage {
+    display: inline-block;
+}
+
+#andriodimage img {
+    display: inline-block;
+    border-radius: 10px;
+    height: 43px;
+    margin-top: 9px;
+    opacity: 0.7;
+}
+
+#andriodimage {
+    display: inline-block;
+}
+
+#appleimage img:hover {
+    opacity: 1.0;
+}
+
+#andriodimage img:hover {
+    opacity: 1.0;
+}
+
+footer i {
+    display: inline-block;
+    padding-right: 2%;
+    padding-top: 20px;
+    font-size: 150%;
+}
+
+footer i:hover {
+    color: orange;
+}
+
+footer h2 {
+    color: black;
+    display: inline-block;
+    font-weight: 100;
+    font-size: 120%;
+    padding-left: 5px;
+    margin-top: 19;
+}
+
+#entersite {
+    display: inline-block;
+    color: white;
+    font-weight: bold;
+    margin: -10px 50px;
+    text-align: center;
+    width: 200px;
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid rgb(150,150,150);
+    background-color: orange;
+    box-shadow: 0px 3px 12px 0px rgba(0,0,0,0.5), 0px 2px 0px 0px rgba(185,91,12,1), inset 0px 1px 0px 0px rgba(255,255,255,0.5);
+}
+
+#entersite:hover {
+    background-color: #f2bc8d;
+}
+
+footer p {
+    border: solid;
+    margin-top: 50px;
+    text-align: center;
+}
+
+.container { width: 940px; height: 100%; margin: 0 auto; }
+.containerfull { width: 100%; height: 100%; margin: 0 auto; }
+.containerfullwidth { width: 100%; height: 20px; margin: 0 auto; }
+.center { text-align: center; }
+
+/* Menu */
+@media (max-width:960px) {
+    .mobile-nav-icon {
+        display: inline-block;
+        float: right;
+    }
+    
+    .sidebar {
+        display: none;
+        float: left;
+        margin-right: -51px;
+        margin-top: 50px;
+    }
+    
+    .sidebar li {
+        display: block;
+        box-shadow: none;
+    }
+    
+    .sidebar li a:link, .sidebar li a:visited {
+        display: block;
+        border: 0;
+        box-shadow: none;
+    }
+}
+
+/* Large */
+@media (max-width:990px) {
+    /* header { background-color: orange; }  */
+    
+    .sectionh1 { font-size: 200%; }
+    section.home p { font-size: 1.1em; } 
+    
+    section.features p { font-size: 83%; line-height: 126%; }
+    section.features h2 { font-weight: 300; font-size: 140%; }
+    #pnlgraphimage img { height: 13%; }
+    #pnlgraphimage img:hover { height: 14%; }
+    
+    /* selvaflaesn */
+    section.flow h2 { font-size: 120%; }
+    section.flow h3 { font-size: 1.10em; margin-top: 5px; margin-bottom: 5px; }
+    section.flow h4 { font-size: 95%; }
+    section.flow h5 { font-size: 80%; }
+    section.flow h6 { font-size: 110%; padding-top: 2px; }
+    section.flow i { font-size: 90%; }
+    .aflaesprocesscontainer { margin-left: 3%; }
+    .aflaesprocessstepcontainer { padding: 3px; margin-left: 1.6%; width: 30%; }
+    
+    /* tradeblotter */
+    section.flow h4 { font-size: 80%; }
+    .leftcontainerheader { width: 30% }
+    .leftcontainer { width: 30%; }
+    .midcontainerheader { width: 30%; margin-left: 3.5%; }
+    .midcontainer { width: 30%; margin-left: 3.5%; }
+    .rightcontainerheader { width: 30%  }
+    .rightcontainer { width: 30%;  }
+    section.flow li { font-size: 150%; }
+    section.flow p { margin: 5px;}
+    
+    section.clients h2 { font-size: 1.5em; }
+    section.clients p { font-size: 90%; }
+    #clientimage img { width: 95%; height: 65%; margin-bottom: 20px; }
+
+    section.pricing i { font-size: 180%; }
+    section.pricing h2 { font-size: 110%; }
+    section.pricing aside { font-size: 90%; }
+    .subscribe { width: 160px; font-size: 90%; }
+    
+    #entersite { width: 160px; font-size: 90%; }
+    footer i { font-size: 130%; }
+    footer h2 { font-size: 120%; margin-top: 17; }
+    footer { height: 60px;  }
+}
+
+/* Pads */
+@media (max-width:767px) {
+    /* header { background-color: blue; }  */
+    
+    .sectionh1 { font-size: 200%; }
+    section.home p { font-size: 0.9em; } 
+    
+    section.features p { font-size: 70%; line-height: 120%; }
+    section.features h2 { font-weight: 300; font-size: 120%; }
+    #pnlgraphimage img { height: 11%; }
+    #pnlgraphimage img:hover { height: 12%; }
+
+    /* selvaflaesn */
+    section.flow h2 { font-size: 110%; }
+    section.flow h3 { font-size: 1.00em; }
+    section.flow h4 { font-size: 90%; }
+    section.flow h5 { font-size: 65%; }
+    section.flow h6 { font-size: 80%; padding-top: 2px; }
+    section.flow i { font-size: 80%; display: none; }
+    .aflaesprocesscontainer { margin-left: 2%; }
+    .aflaesprocessstepcontainer { padding: 3px; margin-left: 1.6%; width: 30%; }
+    
+    /* tradeblotter */
+    section.flow h4 { font-size: 80%; }
+    .leftcontainerheader { width: 30% }
+    .leftcontainer { width: 30%; }
+    .midcontainerheader { width: 30%; margin-left: 3.5%; }
+    .midcontainer { width: 30%; margin-left: 3.5%; }
+    .rightcontainerheader { width: 30%  }
+    .rightcontainer { width: 30%;  }
+    section.flow li { font-size: 110%; }
+    section.flow p { margin: 5px;}
+
+    section.clients h2 { font-size: 1.3em; }
+    section.clients p { font-size: 80%; }
+    #clientimage img { width: 90%; height: 65%; margin-bottom: 20px; }
+
+    section.pricing i { font-size: 150%; }
+    section.pricing h2 { font-size: 105%; }
+    section.pricing aside { font-size: 70%; }
+    .subscribe { width: 130px; font-size: 80%; }
+
+    #entersite { width: 130px; font-size: 80%; margin-right: 10px; margin-left: 10px; }
+    footer i { font-size: 110%; }
+    footer h2 { font-size: 100%; margin-top: 17; }
+    footer { height: 60px;  }
+}
+
+/* Phones */
+@media (max-width:500px) {
+    /* header { background-color: red; } */
+    
+    header h1 { font-size: 150%; }
+    
+    .sectionh1 { font-size: 140%; }
+    section.home p { font-size: 0.8em; }
+    #pnlimage { display: none; }
+    #riskimage { display: none; }
+    #hometext { width: 90%; padding-left: 5%; }
+    .sidebar { width: 100px; padding: 0; }
+    nav li { font-size: 60%; margin-left: 0px; box-shadow: none; margin-right: 10px; }
+    
+    section.features p { font-size: 70%; line-height: 115%; margin-top: -10px; }
+    section.features h2 { font-weight: 300; font-size: 80%; padding-bottom: 2px; }
+    #pnlgraphimage img { height: 9%; }
+    #pnlgraphimage img:hover { height: 10%; }
+    .boxleft { padding: 3px; height: 22%; }
+    .boxright { padding: 3px; height: 22%; }
+    section.features i { display: none; }
+
+    /* selvaflaesn */
+    section.flow h2 { font-size: 100%; }
+    section.flow h3 { font-size: 0.73em; }
+    section.flow h5 { font-size: 55%; }
+    section.flow h6 { font-size: 62%; padding-top: 2px; }
+    section.flow i { font-size: 70%; display: none; }
+    .aflaesprocesscontainer { margin-left: 2%; }
+    .aflaesprocessstepcontainer { padding: 3px; margin-left: 1%; width: 29%; height: 75%; }
+
+    /* tradeblotter */
+    section.flow h4 { font-size: 80%; }
+    .leftcontainerheader { width: 30% }
+    .leftcontainer { width: 30%; }
+    .midcontainerheader { width: 30%; margin-left: 2.5%; }
+    .midcontainer { width: 30%; margin-left: 2.5%; }
+    .rightcontainerheader { width: 30%  }
+    .rightcontainer { width: 30%;  }
+    section.flow li { font-size: 70%; }
+    section.flow p { margin: 5px; font-size: 80%; }
+ 
+    section.clients h2 { font-size: 1.1em; }
+    section.clients p { font-size: 70%; }
+    #clientimage img { width: 90%; height: 40%; margin-bottom: 20px; }
+    
+    section.pricing i { font-size: 120%; }
+    section.pricing h2 { font-size: 90%; }
+    section.pricing aside { font-size: 60%; }
+    .subscribe { width: 100px; font-size: 70%; }
+
+    #entersite { width: 100px; font-size: 70%; padding: 10 5 10 5; }
+    footer i { font-size: 90%; }
+    footer h2 { font-size: 80%; margin-top: 17; }
+    footer { height: 80px;  }
+}
