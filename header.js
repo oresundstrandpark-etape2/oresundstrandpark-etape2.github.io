@@ -5,7 +5,7 @@ document.write('\
   <tr>\
     <td class="menu" width="185" valign="top" bgcolor="#1935c5"><p>&nbsp;</p>\
     <p><a href="index.html"><img src="images/forside_on.gif" alt="forside" width="175" height="25" border="0" /></a><br />\
-      <a href="ejerforeningen.html"><img src="images/ejerforeningen.gif" alt="ejerforeningen" width="175" height="25" border="0" /></a><br />\
+      <a href="ejerforeningen"><img src="images/ejerforeningen.gif" alt="ejerforeningen" width="175" height="25" border="0" /></a><br />\
       <a href="referater.html"><img src="images/referater.gif" alt="referater, bestyrelsesm&oslash;der" width="175" height="25" border="0" /></a><br />\
       <a href="bestyrelsen.html"><img src="images/bestyrelsen.gif" alt="bestyrelsen" width="175" height="25" border="0" /></a><br />\
       <a href="husorden.html"><img src="images/husorden.gif" alt="husorden" width="175" height="25" border="0" /></a><br />\
