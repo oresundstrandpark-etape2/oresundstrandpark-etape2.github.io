@@ -1,4 +1,5 @@
-body {
+body 
+{
 	font-family: Verdana, Geneva, Arial, Helvetica, sans-serif;
 	font-size: 80%;
 	font-weight : normal;
@@ -9,14 +10,12 @@ body {
 }
 
 .titel {
-	font-family: Verdana, Geneva, Arial, Helvetica, sans-serif;
 	font-size: 24px;
 	font-weight : bold;
 	color:#152CA1
 }
 
 .overskrift {
-	font-family: Verdana, Geneva, Arial, Helvetica, sans-serif;
 	font-size: 14px;
 	font-weight : bold;
 	color:#152CA1
@@ -24,7 +23,6 @@ body {
 
 .subhead
  {
-	font-family: Verdana, Geneva, Arial, Helvetica, sans-serif;
 	font-size: 12px;
 	font-weight : bold;
 	color:#152CA1
@@ -32,71 +30,71 @@ body {
 
 .top
  {
-	font-family: Verdana, Geneva, Arial, Helvetica, sans-serif;
 	font-size: 9px;
 }
 
 td {
-	font-family: Verdana, Geneva, Arial, Helvetica, sans-serif;
 	font-size: 12px;
 }
 
 th {
-	font-family: Verdana, Geneva, Arial, Helvetica, sans-serif;
 	font-size: 12px;
 }
 
-.bodystyle {
-	font-family: Verdana, Geneva, Arial, Helvetica, sans-serif;
+.bodystyle 
+{
 	font-size: 12px;
 }
 
-.small {
-	font-family: Verdana, Geneva, Arial, Helvetica, sans-serif;
+.small 
+{
 	font-size: 9px;
 }
 
-.medium {
-	font-family: Verdana, Geneva, Arial, Helvetica, sans-serif;
+.medium 
+{
 	font-size: 12px;
 }
 
-.big {
-	font-family: Verdana, Geneva, Arial, Helvetica, sans-serif;
+.big 
+{
 	font-size: 16px;
 }
 
-.xbig {
-	font-family: Verdana, Geneva, Arial, Helvetica, sans-serif;
+.xbig 
+{
 	font-size: 24px;
 }
 
-.expanded {
-	font-family: Verdana, Geneva, Arial, Helvetica, sans-serif;
+.expanded 
+{
 	font-size: 12px;
 	line-height: 16px;
 	letter-spacing: 2px;
 }
 
-.justified {
-	font-family: Verdana, Geneva, Arial, Helvetica, sans-serif;
+.justified 
+{
 	text-align: justify;
 }
 
-.footer {
+.footer 
+{
 	font-family: "Times New Roman", Times, serif;
 	font-size: 9px;
 	color: #999999;
 }
 
-.box1 {
+.box1 
+{
 	padding: 3px;
 	border-width: thin;
 	border-style: solid;
 	border-color: #CCCCCC #666666 #666666 #CCCCCC;
 }
 
-.box2 {
+.box2 
+{
 	font-style: italic;
 	word-spacing: 2pt;
 	padding: 3px;
@@ -105,43 +103,49 @@ th {
 }
 
 /* Animation */
-
-.menu {
-	
+.menu 
+{
 }
 
-.menu a {
+.menu a 
+{
 	text-decoration: none;
 	color: white;
 }
 
-.menu1  {
+.menu1  
+{
 	transform: scale(1.0);
 	font-size: 130%;
     color: white;
 	padding-left: 10px;
 }
-.menu2  {
+.menu2  
+{
 	transform: scale(1.0);
 	font-size: 105%;
 	padding-left: 22px;
 
 }
 
-.menu1:hover {
+.menu1:hover 
+{
+	font-weight : 110%;
 	padding-left: 15px;
-    -ms-transform: scale(1.10);
-    -webkit-transform: scale(1.10);
-	transform: scale(1.10);
+    -ms-transform: scale(1.05);
+    -webkit-transform: scale(1.05);
+	transform: scale(1.05);
 	transition: transform 0.5s;
 	border: 1px solid;
 }
 
-.menu2:hover {
+.menu2:hover 
+{
+	font-weight : 110%;
 	padding-left: 27px;
-    -ms-transform: scale(1.10);
-    -webkit-transform: scale(1.10);
-	transform: scale(1.10);
+    -ms-transform: scale(1.05);
+    -webkit-transform: scale(1.05);
+	transform: scale(1.05);
 	transition: transform 0.5s;
 	border: 1px solid;
 }
