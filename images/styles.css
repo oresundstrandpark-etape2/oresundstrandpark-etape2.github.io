@@ -123,9 +123,8 @@ th {
 .menu2  
 {
 	transform: scale(1.0);
-	font-size: 105%;
+	font-size: 100%;
 	padding-left: 22px;
-
 }
 
 .menu1:hover 
