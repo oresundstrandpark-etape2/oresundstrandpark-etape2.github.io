@@ -6,20 +6,22 @@ body {
 	margin-top: 0px;
 	margin-right: 0px;
 	margin-bottom: 0px;
-	
 }
+
 .titel {
 	font-family: Verdana, Geneva, Arial, Helvetica, sans-serif;
 	font-size: 24px;
 	font-weight : bold;
 	color:#152CA1
 }
+
 .overskrift {
 	font-family: Verdana, Geneva, Arial, Helvetica, sans-serif;
 	font-size: 14px;
 	font-weight : bold;
 	color:#152CA1
 }
+
 .subhead
  {
 	font-family: Verdana, Geneva, Arial, Helvetica, sans-serif;
@@ -27,11 +29,13 @@ body {
 	font-weight : bold;
 	color:#152CA1
 }
+
 .top
  {
 	font-family: Verdana, Geneva, Arial, Helvetica, sans-serif;
 	font-size: 9px;
 }
+
 td {
 	font-family: Verdana, Geneva, Arial, Helvetica, sans-serif;
 	font-size: 12px;
@@ -102,17 +106,40 @@ th {
 
 /* Animation */
 
-.menu img {
-	transform: scale(1.0);
+.menu {
+	
 }
 
-.menu img:hover {
-	padding-left: 5px;
-    border: 2px solid;
+.menu a {
+	text-decoration: none;
+	color: white;
+}
+
+.menu1  {
+	transform: scale(1.0);
+	font-size: 130%;
     color: white;
+	padding-left: 5px;
+}
+.menu2  {
+	transform: scale(1.0);
+	font-size: 105%;
+	padding-left: 22px;
+
+}
+
+.menu1:hover {
+	padding-left: 8px;
     -ms-transform: scale(1.05);
     -webkit-transform: scale(1.05);
 	transform: scale(1.05);
 	transition: transform 0.5s	
 }
 
+.menu2:hover {
+	padding-left: 25px;
+    -ms-transform: scale(1.05);
+    -webkit-transform: scale(1.05);
+	transform: scale(1.05);
+	transition: transform 0.5s	
+}
