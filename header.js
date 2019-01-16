@@ -12,6 +12,7 @@ document.write('\
       <a href="vedtaegter"><img src="images/vedtaegter.gif" alt="vedt&aelig;gter" width="175" height="25" border="0" /></a><br />\
       <a href="generalforsamling"><img src="images/generalforsamling.gif" alt="generalforsamling" width="175" height="25" border="0" /></a><br />\
       <a href="grundejerforening"><img src="images/grundejerforening.gif" alt="grundejerforeningen" width="175" height="25" border="0" /></a><br />\
+      <a href="regnskab"><img src="images/regnskab.gif" alt="regnskab" width="175" height="25" border="0" /></a><br />\
       <a href="svar"><img src="images/svar.gif" alt="f&aring; svar p&aring; dine sp&oslash;rgsm&aring;l" width="175" height="25" border="0" /></a> <br />\
       <a href="kontakter"><img src="images/kontakter.gif" alt="kontakter" width="175" height="25" border="0" /></a><br />\
       <a href="links"><img src="images/links.gif" alt="nyttige links" width="175" height="25" border="0" /></a></p>\
