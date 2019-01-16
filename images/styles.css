@@ -151,7 +151,7 @@ th {
 }
 
 a[href$=".pdf"]{
-	background-image: url(images/pdf-icon.png);
+	background-image: url("images/pdf-icon.png");
 	background-position: center left;
 	background-repeat: no-repeat;
 	padding-left: 35px;
