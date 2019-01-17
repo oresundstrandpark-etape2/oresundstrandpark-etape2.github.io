@@ -151,6 +151,7 @@ th {
 
 a[href$=".pdf"]
 {
+	transform: scale(1.0);
 	text-decoration: none;
 	background-image: url("pdf-icon.png");
 	background-position: center left;
@@ -159,4 +160,12 @@ a[href$=".pdf"]
 	height: 35px;
 	display: inline-block;
 	padding-top: 10px;
+}
+
+a[href$=".pdf"]:hover
+{
+    -ms-transform: scale(1.05);
+    -webkit-transform: scale(1.05);
+	transform: scale(1.05);
+	transition: transform 0.5s;
 }
