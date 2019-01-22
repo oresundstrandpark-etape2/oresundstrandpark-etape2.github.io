@@ -166,8 +166,8 @@ a[href$=".pdf"]
 
 a[href$=".pdf"]:hover
 {
-    -ms-transform: scale(1.06);
-    -webkit-transform: scale(1.06);
-	transform: scale(1.06);
+    -ms-transform: scale(1.05);
+    -webkit-transform: scale(1.05);
+	transform: scale(1.05);
 	transition: transform 0.5s;
 }
