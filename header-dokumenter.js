@@ -1,6 +1,7 @@
 document.write('\
   <script src="..images/jquery-1.12.4.min.js"></script>\
   <script src="..images/script.js"></script>\
+  <div id="gotoTop" class="glyphicon glyphicon-arrow-up"></div>\
   <tr>\
     <td colspan="2" bgcolor="#152ca1"><img src="../images/top.gif" alt="ejerforeningen &oslash;resund strandpark, etape ii" width="800" height="77" /></td>\
   </tr>\
