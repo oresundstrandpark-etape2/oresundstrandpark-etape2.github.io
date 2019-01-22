@@ -1,4 +1,5 @@
 document.write('\
+  <script src="images/script.js"></script>\
   <tr>\
     <td colspan="2" bgcolor="#152ca1"><img src="images/top.gif" alt="ejerforeningen &oslash;resund strandpark, etape ii" width="100%" height="77" /></td>\
   </tr>\
