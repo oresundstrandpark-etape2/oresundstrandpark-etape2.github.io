@@ -1,3 +1,5 @@
+console.log("script loaded");
+
 /* Scroll function */
 $(function() {
 	$(document).on('scroll', function()
