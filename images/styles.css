@@ -159,7 +159,6 @@ a[href$=".pdf"]
 	background-position: center left;
 	background-repeat: no-repeat;
 	padding-left: 35px;
-	padding-right: 35px;
 	height: 35px;
 	display: inline-block;
 	padding-top: 10px;
@@ -167,8 +166,8 @@ a[href$=".pdf"]
 
 a[href$=".pdf"]:hover
 {
-    -ms-transform: scale(1.05);
-    -webkit-transform: scale(1.05);
-	transform: scale(1.05);
+    -ms-transform: scale(1.08);
+    -webkit-transform: scale(1.08);
+	transform: scale(1.08);
 	transition: transform 0.5s;
 }
