@@ -21,5 +21,4 @@ document.write('\
       <a href="../kontakter"><div class="menu1">Kontakter</div></a><br/>\
       <a href="../links"><div class="menu1">Nyttige Links</div></a></p>\
     </td>\
-  <div id="gotoTop" class="glyphicon glyphicon-arrow-up"></div>\
 ');
