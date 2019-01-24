@@ -171,3 +171,29 @@ a[href$=".pdf"]:hover
 	transform: scale(1.05);
 	transition: transform 0.5s;
 }
+
+a[href$="facebook"]
+{
+	transform: scale(1.0);
+	text-decoration: none;
+	background-image: url("facebook.png");
+	background-position: center left;
+	background-repeat: no-repeat;
+	padding-left: 35px;
+	height: 35px;
+	display: inline-block;
+	padding-top: 10px;
+}
+
+a[href$="email"]
+{
+	transform: scale(1.0);
+	text-decoration: none;
+	background-image: url("email.png");
+	background-position: center left;
+	background-repeat: no-repeat;
+	padding-left: 35px;
+	height: 35px;
+	display: inline-block;
+	padding-top: 10px;
+}
