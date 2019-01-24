@@ -192,6 +192,8 @@ a[href*="facebook"]:hover
 	transform: scale(1.03);
 	transition: transform 0.5s;
 	font-weight: bold;
+	padding-left: 30px;
+	padding-right: 30px;
 }
 
 a[href^="mailto"]
