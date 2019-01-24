@@ -223,9 +223,9 @@ a[href]
 
 a[href]:hover
 {
-	-ms-transform: scale(1.03);
-	-webkit-transform: scale(1.03);
-	transform: scale(1.03);
+	-ms-transform: scale(1.05);
+	-webkit-transform: scale(1.05);
+	transform: scale(1.05);
 	transition: transform 0.5s;
 	
 }
