@@ -179,7 +179,7 @@ a[href*="facebook"]
 	background-image: url("facebook.png");
 	background-position: center left;
 	background-repeat: no-repeat;
-	padding-left: 35px;
+	padding-left: 40px;
 	height: 15px;
 	display: inline-block;
 }
