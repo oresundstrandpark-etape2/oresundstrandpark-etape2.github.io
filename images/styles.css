@@ -158,7 +158,7 @@ a[href$=".pdf"]
 	background-image: url("pdf-icon.png");
 	background-position: center left;
 	background-repeat: no-repeat;
-	padding-left: 30px;
+	padding-left: 20px;
 	height: 20px;
 	display: inline-block;
 	padding-top: 10px;
