@@ -166,9 +166,9 @@ a[href$=".pdf"]
 
 a[href$=".pdf"]:hover
 {
-    -ms-transform: scale(1.05);
-    -webkit-transform: scale(1.05);
-	transform: scale(1.05);
+    -ms-transform: scale(1.03);
+    -webkit-transform: scale(1.03);
+	transform: scale(1.03);
 	transition: transform 0.5s;
 }
 
@@ -186,9 +186,9 @@ a[href*="facebook"]
 
 a[href*="facebook"]:hover
 {
-    -ms-transform: scale(1.05);
-    -webkit-transform: scale(1.05);
-	transform: scale(1.05);
+    -ms-transform: scale(1.03);
+    -webkit-transform: scale(1.03);
+	transform: scale(1.03);
 	transition: transform 0.5s;
 }
 
@@ -206,8 +206,8 @@ a[href^="mailto"]
 
 a[href^="mailto"]:hover
 {
-    -ms-transform: scale(1.05);
-    -webkit-transform: scale(1.05);
-	transform: scale(1.05);
+    -ms-transform: scale(1.03);
+    -webkit-transform: scale(1.03);
+	transform: scale(1.03);
 	transition: transform 0.5s;
 }
