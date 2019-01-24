@@ -219,6 +219,7 @@ a[href]
 {
 	transform: scale(1.0);
 	text-decoration: none;
+	display: inline-block;
 }
 
 a[href]:hover
