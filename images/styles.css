@@ -215,7 +215,7 @@ a[href^="mailto"]:hover
 	font-weight: bold;
 }
 
-a[href^="http"]:hover
+a[href]:hover
 {
 	-ms-transform: scale(1.03);
 	-webkit-transform: scale(1.03);
