@@ -173,7 +173,7 @@ a[href$=".pdf"]:hover
 	font-weight: bold;
 }
 
-a[href*="facebook"]
+a[href*="facebook.com"]
 {
 	transform: scale(1.0);
 	text-decoration: none;
@@ -185,15 +185,15 @@ a[href*="facebook"]
 	display: inline-block;
 }
 
-a[href*="facebook"]:hover
+a[href*="facebook.com"]:hover
 {
 	-ms-transform: scale(1.03);
 	-webkit-transform: scale(1.03);
 	transform: scale(1.03);
 	transition: transform 0.5s;
 	font-weight: bold;
-	padding-left: 30px;
-	padding-right: 30px;
+	margin-left: 10px;
+	padding-right: 5px;
 }
 
 a[href^="mailto"]
