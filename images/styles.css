@@ -227,5 +227,5 @@ a[href]:hover
 	-webkit-transform: scale(1.03);
 	transform: scale(1.03);
 	transition: transform 0.5s;
-	font-weight: bold;
+	
 }
