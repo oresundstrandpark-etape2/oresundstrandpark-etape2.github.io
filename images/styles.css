@@ -215,6 +215,12 @@ a[href^="mailto"]:hover
 	font-weight: bold;
 }
 
+a[href]
+{
+	transform: scale(1.0);
+	text-decoration: none;
+}
+
 a[href]:hover
 {
 	-ms-transform: scale(1.03);
