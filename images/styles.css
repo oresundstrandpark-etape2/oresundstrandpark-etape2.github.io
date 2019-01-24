@@ -180,9 +180,8 @@ a[href*="facebook"]
 	background-position: center left;
 	background-repeat: no-repeat;
 	padding-left: 35px;
-	height: 35px;
+	height: 15px;
 	display: inline-block;
-	padding-top: 10px;
 }
 
 a[href^="mailto"]
@@ -193,7 +192,6 @@ a[href^="mailto"]
 	background-position: center left;
 	background-repeat: no-repeat;
 	padding-left: 35px;
-	height: 35px;
+	height: 15px;
 	display: inline-block;
-	padding-top: 10px;
 }
