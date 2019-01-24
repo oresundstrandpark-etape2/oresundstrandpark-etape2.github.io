@@ -185,7 +185,7 @@ a[href$="facebook"]
 	padding-top: 10px;
 }
 
-a[href$="email"]
+a[href$="mailto"]
 {
 	transform: scale(1.0);
 	text-decoration: none;
