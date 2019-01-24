@@ -171,6 +171,8 @@ a[href$=".pdf"]:hover
 	transform: scale(1.03);
 	transition: transform 0.5s;
 	font-weight: bold;
+	margin-left: 5px;
+	padding-right: 5px;
 }
 
 a[href*="facebook.com"]
@@ -192,7 +194,7 @@ a[href*="facebook.com"]:hover
 	transform: scale(1.03);
 	transition: transform 0.5s;
 	font-weight: bold;
-	margin-left: 10px;
+	margin-left: 5px;
 	padding-right: 5px;
 }
 
@@ -215,6 +217,8 @@ a[href^="mailto"]:hover
 	transform: scale(1.03);
 	transition: transform 0.5s;
 	font-weight: bold;
+	margin-left: 5px;
+	padding-right: 5px;
 }
 
 a[href]
