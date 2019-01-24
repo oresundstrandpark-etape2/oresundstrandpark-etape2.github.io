@@ -214,3 +214,12 @@ a[href^="mailto"]:hover
 	transition: transform 0.5s;
 	font-weight: bold;
 }
+
+a[href^="http"]:hover
+{
+	-ms-transform: scale(1.03);
+	-webkit-transform: scale(1.03);
+	transform: scale(1.03);
+	transition: transform 0.5s;
+	font-weight: bold;
+}
