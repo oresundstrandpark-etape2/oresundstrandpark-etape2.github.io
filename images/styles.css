@@ -184,6 +184,14 @@ a[href*="facebook"]
 	display: inline-block;
 }
 
+a[href*="facebook"]:hover
+{
+    -ms-transform: scale(1.05);
+    -webkit-transform: scale(1.05);
+	transform: scale(1.05);
+	transition: transform 0.5s;
+}
+
 a[href^="mailto"]
 {
 	transform: scale(1.0);
@@ -194,4 +202,12 @@ a[href^="mailto"]
 	padding-left: 35px;
 	height: 15px;
 	display: inline-block;
+}
+
+a[href^="mailto"]:hover
+{
+    -ms-transform: scale(1.05);
+    -webkit-transform: scale(1.05);
+	transform: scale(1.05);
+	transition: transform 0.5s;
 }
