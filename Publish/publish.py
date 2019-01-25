@@ -61,6 +61,8 @@ shutil.copyfile(newpdf, "../dokumenter/" + newpdf)
 
 date = datetime.datetime.strptime(sys.argv[2], "%Y%m%d")
 longdate = datetime.date.strftime(date, "%d. %b %Y")
+now = datetime.datetime.now()
+longdatenow = datetime.date.strftime(now, "%d. %b %Y")
 
 # Update index
 indextmpl = "index-template.html"
@@ -70,6 +72,7 @@ indexfile = "../index.html"
 with open(indexfile, "r") as myfile:
     index = myfile.read()
 indextmpl = indextmpl.replace("DATE", longdate)
+indextmpl = indextmpl.replace("NOW", longdatenow)
 indextmpl = indextmpl.replace("FILE", "dokumenter/" + newhtml)
 if index.find(indextmpl) == -1:
     find = "<!-- Tilfoej en linje her for nyt indlaeg -->"
@@ -80,12 +83,11 @@ if index.find(indextmpl) == -1:
 else:
     print "Allerede opdateret: index.html"  
 
-
 # Update referat
 referatfile = "../referater.html"
 with open(referatfile, "r") as myfile:
     referat = myfile.read()
-txt = '<p><a href="dokumenter/' + newhtml + '">Møde d. ' + longdate + '"</a></p>'
+txt = '<p><a href="dokumenter/' + newhtml + '">Møde d. ' + longdate + '</a></p>'
 if referat.find(txt) == -1:
     find = "<!-- Tilfoej en linje her for nyt indlaeg -->"
     referat = referat.replace(find, find + "\r\n\t\t\t" + txt)
