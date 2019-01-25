@@ -2,8 +2,6 @@ document.write('\
   <head>\
   <script src="../images/jquery-1.12.4.min.js"></script>\
   <script src="../images/script.js"></script>\
-  <link rel="shortcut icon" type="image/png" href="../images/beach.png">\
-  <div id="gotoTop" class="fas fa-angle-up fa-5x"></div>\
   <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css" integrity="sha384-UHRtZLI+pbxtHCWp1t77Bi1L4ZtiqrqD80Kn4Z8NTSRyMA2Fd33n5dQ8lWUE00s/" crossorigin="anonymous">\
   </head>\
   <tr>\
