@@ -1,4 +1,5 @@
-ECHO Uploader aendringer tilbage til GitHub...
+#!/bin/sh
+echo "Uploader aendringer tilbage til GitHub..."
 git pull
 git add --all
 git commit -m "Update"
