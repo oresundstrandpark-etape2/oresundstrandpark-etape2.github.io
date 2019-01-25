@@ -1,8 +1,7 @@
 document.write('\
   <script src="..images/jquery-1.12.4.min.js"></script>\
   <script src="..images/script.js"></script>\
-  <link href="..images/styles.css" rel="stylesheet" type="text/css">\
-  <link rel='shortcut icon' type='image/png' href='.anchor.images/beach.png'>\
+  <link rel="shortcut icon" type="image/png" href="..images/beach.png">\
   <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css" integrity="sha384-UHRtZLI+pbxtHCWp1t77Bi1L4ZtiqrqD80Kn4Z8NTSRyMA2Fd33n5dQ8lWUE00s/" crossorigin="anonymous">\
   <tr>\
     <td colspan="2" bgcolor="#152ca1"><img src="../images/top.gif" alt="ejerforeningen &oslash;resund strandpark, etape ii" width="800" height="77" /></td>\
