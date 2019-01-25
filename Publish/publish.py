@@ -96,3 +96,7 @@ if referat.find(txt) == -1:
     print "Opdateret: referater.html"
 else:
     print "Allerede opdateret: referater.html"
+
+# Cleanup
+os.remove(newhtml)
+os.remove(newpdf)
