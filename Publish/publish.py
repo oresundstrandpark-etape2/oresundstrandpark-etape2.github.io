@@ -85,7 +85,7 @@ else:
 referatfile = "../referater.html"
 with open(referatfile, "r") as myfile:
     referat = myfile.read()
-txt = '<p><a href="dokumenter/' + newhtml + '">Møde d. ' + longdate + '</a></p>'
+txt = '<p><a href="dokumenter/' + newhtml + '">Møde d. ' + longdate + '"</a></p>'
 if referat.find(txt) == -1:
     find = "<!-- Tilfoej en linje her for nyt indlaeg -->"
     referat = referat.replace(find, find + "\r\n\t\t\t" + txt)
