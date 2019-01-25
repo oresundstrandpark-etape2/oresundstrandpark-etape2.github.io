@@ -15,6 +15,12 @@ if argnum < 3:
     print "Eksempelvis: python publish.py EF-2-moede-07012019 20190107"
     sys.exit(0)
 
+# Dates
+date = datetime.datetime.strptime(sys.argv[2], "%Y%m%d")
+longdate = datetime.date.strftime(date, "%d. %b %Y")
+now = datetime.datetime.now()
+longdatenow = datetime.date.strftime(now, "%d. %b %Y")
+
 # Pre-check files
 file = sys.argv[1] + ".docx"
 if not os.path.exists(file):
@@ -51,6 +57,7 @@ with open("template.html", "r") as myfile:
 tmpl = tmpl.replace("<!-- Indsaet referat her -->", out)
 tmpl = tmpl.replace('<embed src="media/image1.emf" style="width:2.78125in;height:0.85417in" />', "")
 tmpl = tmpl.replace("YYYYMMDD", sys.argv[2])
+tmpl = tmpl.replace("DATE", longdate)
 newhtml = "referat_" + sys.argv[2] + ".html"
 with open(newhtml, "w") as myfile:
     myfile.write(tmpl)
@@ -58,11 +65,6 @@ with open(newhtml, "w") as myfile:
 # Copy files to dokumenter
 shutil.copyfile(newhtml, "../dokumenter/" + newhtml)
 shutil.copyfile(newpdf, "../dokumenter/" + newpdf)
-
-date = datetime.datetime.strptime(sys.argv[2], "%Y%m%d")
-longdate = datetime.date.strftime(date, "%d. %b %Y")
-now = datetime.datetime.now()
-longdatenow = datetime.date.strftime(now, "%d. %b %Y")
 
 # Update index
 indextmpl = "index-template.html"
