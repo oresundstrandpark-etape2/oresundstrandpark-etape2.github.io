@@ -9,13 +9,15 @@ body
 	margin-bottom: 0px;
 }
 
-.titel {
+.titel 
+{
 	font-size: 24px;
 	font-weight : bold;
 	color:#152CA1
 }
 
-.overskrift {
+.overskrift 
+{
 	font-size: 14px;
 	font-weight : bold;
 	color:#152CA1
@@ -29,15 +31,17 @@ body
 }
 
 .top
- {
+{
 	font-size: 9px;
 }
 
-td {
+td 
+{
 	font-size: 12px;
 }
 
-th {
+th 
+{
 	font-size: 12px;
 }
 
@@ -106,6 +110,7 @@ th {
 .menu 
 {
     color: white;
+	border: 1px solid black;
 }
 
 .menu a 
