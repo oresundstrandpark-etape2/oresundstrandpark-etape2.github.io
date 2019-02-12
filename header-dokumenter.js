@@ -8,7 +8,7 @@ document.write('\
     <td colspan="2" bgcolor="#152ca1"><img src="../images/top.gif" alt="ejerforeningen &oslash;resund strandpark, etape ii" width="800" style="max-width:1000px" height="77" /></td>\
   </tr>\
   <tr>\
-    <td class="menu" width="185" valign="top" bgcolor="#1935c5"><p>&nbsp;</p>\
+    <td class="menu" width="220" valign="top" bgcolor="#1935c5"><p>&nbsp;</p>\
     <p><a href="../index"><div class="menu1">Nyheder</div></a><br/>\
       <a href="../ejerforeningen"><div class="menu1">Ejerforeningen</div></a><br/>\
       <a href="../referater"><div class="menu2">Referater</div></a><br/>\
