@@ -5,7 +5,7 @@ document.write('\
   <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css" integrity="sha384-UHRtZLI+pbxtHCWp1t77Bi1L4ZtiqrqD80Kn4Z8NTSRyMA2Fd33n5dQ8lWUE00s/" crossorigin="anonymous">\
   </head>\
   <tr>\
-    <td colspan="2" bgcolor="#152ca1"><img src="images/top.gif" alt="ejerforeningen &oslash;resund strandpark, etape ii" width="100%" style="max-width:1000px; margin:auto" height="77" /></td>\
+    <td colspan="2" bgcolor="#152ca1"><img src="images/top.gif" alt="ejerforeningen &oslash;resund strandpark, etape ii" class="logo"  /></td>\
   </tr>\
   <tr>\
     <td class="menu" width="220" valign="top" bgcolor="#1935c5"><p>&nbsp;</p>\
