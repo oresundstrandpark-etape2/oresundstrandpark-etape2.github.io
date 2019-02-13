@@ -296,6 +296,21 @@ img:hover
 
 @media (max-width: 800px) 
 {
+	p
+	{
+		
+	}
+	
+	.titel 
+	{
+		font-size: 15px;
+	}
+	
+	.overskrift 
+	{
+		font-size: 10px;
+	}
+	
 	.logo
 	{
 		margin-left: 0px;
@@ -322,4 +337,11 @@ img:hover
 	{
 		padding-left: 100px; 
 	}
+	
+	.menu2:hover 
+	{
+		-ms-transform: scale(1.03);
+		-webkit-transform: scale(1.03);
+		transform: scale(1.03);
+	}	
 }
