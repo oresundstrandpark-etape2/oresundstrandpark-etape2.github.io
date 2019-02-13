@@ -17,6 +17,7 @@ body
 	position: fixed;
 	top: 80px;
 	background-color: #1935c5;
+	z-index: 10;
 	height: 100%;
 }
 
