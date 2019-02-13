@@ -309,12 +309,17 @@ img:hover
 	
 	.menu1  
 	{
-		font-size: 80%;
+		font-size: 65%;
 		padding-left: 10px;
 	}
 
 	.menu2  
 	{
 		font-size: 50%;
+	}
+	
+	.doctable
+	{
+		padding-left: 100px; 
 	}
 }
