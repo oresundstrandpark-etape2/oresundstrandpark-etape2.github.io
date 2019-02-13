@@ -9,15 +9,50 @@ body
 	margin-bottom: 0px;
 }
 
+.menu 
+{
+    color: white;
+	width: 200px;
+	min-width: 200px;
+	position: fixed;
+	top: 80px;
+	background-color: #1935c5;
+	height: 100%;
+}
+
+hr
+{
+	width: 95%;
+	margin-left: 0px;
+}
+
+.doctable
+{
+	padding-left: 200px; 
+	padding-top: 80px;
+}
+
 .logo
 {
-	display: block;
+	display: inline-block;
 	margin: 0 auto;
-	max-width: 800px;
+	margin-left: 200px;
+	max-width: 700px;
 	width: 100%;
 	height: 80px;
-	position: float;
+	position: fixed;
 	background-color: #1935c5;
+	z-index: 10;
+}
+
+.logobackground
+{
+	display: block;
+	position: fixed;
+	height: 80px;
+	width: 100%;
+	background-color: #1935c5;
+	z-index: 10;
 }
 
 .titel 
@@ -118,16 +153,6 @@ th
 }
 
 /* Animation */
-.menu 
-{
-    color: white;
-	width: 200px;
-	min-width: 200px;
-	position: float;
-	top: 90px;
-	background-color: #1935c5;
-}
-
 .menu a 
 {
 	text-decoration: none;
@@ -182,6 +207,7 @@ a[href$=".pdf"]
 	height: 20px;
 	display: inline-block;
 	padding-top: 10px;
+	z-index: 0;
 }
 
 a[href$=".pdf"]:hover
@@ -245,6 +271,7 @@ a[href]
 {
 	transform: scale(1.0);
 	text-decoration: none;
+	z-index: 10;
 }
 
 a[href]:hover
@@ -254,4 +281,22 @@ a[href]:hover
 	transform: scale(1.05);
 	transition: transform 0.5s;
 	font-weight: bold;
+}
+
+img
+{
+	opacity: 0.9;
+}
+
+img:hover
+{
+	opacity: 1.0;
+}
+
+@media (max-width: 800px) 
+{
+	.logo
+	{
+		margin-left: 0px;
+	}
 }
