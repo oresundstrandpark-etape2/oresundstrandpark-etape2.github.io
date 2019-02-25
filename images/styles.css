@@ -311,6 +311,11 @@ img:hover
 	{
 		font-size: 8px;
 	}
+
+	p
+	{
+		font-size: 6px;
+	}
 	
 	.logo
 	{
