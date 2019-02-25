@@ -321,6 +321,11 @@ img:hover
 	{
 		font-size: 8px;
 	}
+	
+	a[href]
+	{
+		font-size: 8px;
+	}
 
 	p, li
 	{
