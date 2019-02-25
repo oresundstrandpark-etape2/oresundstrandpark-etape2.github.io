@@ -321,11 +321,6 @@ img:hover
 	{
 		font-size: 8px;
 	}
-	
-	a
-	{
-		font-size: 8px;
-	}
 
 	p, li
 	{
@@ -357,7 +352,7 @@ img:hover
 	.doctable
 	{
 		padding-left: 99px;
-		min-width: 500px;
+		min-width: 400px;
 	}
 	
 	.menu2:hover 
