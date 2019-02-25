@@ -337,6 +337,7 @@ img:hover
 	.doctable
 	{
 		padding-left: 99px;
+		min-width: 300px;
 	}
 	
 	.menu2:hover 
