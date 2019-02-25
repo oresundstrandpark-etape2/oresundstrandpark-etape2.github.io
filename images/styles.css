@@ -302,12 +302,12 @@ img:hover
 		font-size: 85%;
 	}
 	
-	.titel 
+	.titel, h1
 	{
 		font-size: 13px;
 	}
 	
-	.subhead
+	.subhead, h2
 	{
 		font-size: 8px;
 	}
