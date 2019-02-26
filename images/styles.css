@@ -295,7 +295,6 @@ img
 img:hover
 {
 	opacity: 1.0;
-	border: 3px solid black;
 	-ms-transform: scale(1.01);
 	-webkit-transform: scale(1.01);
 	transform: scale(1.01);
