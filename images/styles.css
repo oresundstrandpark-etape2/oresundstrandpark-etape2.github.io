@@ -288,6 +288,7 @@ a[href]:hover
 img
 {
 	opacity: 0.9;
+    image-orientation: from-image;
 }
 
 img:hover
