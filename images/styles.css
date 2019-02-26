@@ -295,9 +295,9 @@ img
 img:hover
 {
 	opacity: 1.0;
-	-ms-transform: scale(1.01);
-	-webkit-transform: scale(1.01);
-	transform: scale(1.01);
+	-ms-transform: scale(1.02);
+	-webkit-transform: scale(1.02);
+	transform: scale(1.02);
 	transition: transform 0.5s;
 	object-fit: cover;
 }
@@ -310,6 +310,11 @@ video
 video:hover
 {
 	opacity: 1.0;
+	-ms-transform: scale(1.02);
+	-webkit-transform: scale(1.02);
+	transform: scale(1.02);
+	transition: transform 0.5s;
+	object-fit: cover;
 }
 
 @media (max-width: 800px) 
