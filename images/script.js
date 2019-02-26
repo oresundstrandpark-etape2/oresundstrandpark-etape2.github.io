@@ -1,4 +1,3 @@
-console.log("script loaded");
 
 /* Scroll function */
 $(function() {
