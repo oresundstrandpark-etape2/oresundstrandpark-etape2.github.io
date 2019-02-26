@@ -290,6 +290,7 @@ img
 	opacity: 0.9;
     image-orientation: from-image;
 	border-radius: 5px;
+	border: 2px solid black;
 }
 
 img:hover
