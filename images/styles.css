@@ -295,6 +295,16 @@ img:hover
 	opacity: 1.0;
 }
 
+video
+{
+	opacity: 0.9;
+}
+
+video:hover
+{
+	opacity: 1.0;
+}
+
 @media (max-width: 800px) 
 {
 	td
