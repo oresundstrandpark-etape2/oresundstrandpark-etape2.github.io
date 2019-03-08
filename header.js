@@ -19,6 +19,7 @@ document.write('\
       <a href="regnskaber"><div class="menu2">Regnskaber</div></a><br/>\
       <a href="grundejerforening"><div class="menu2">Grundejerforening</div></a><br/>\
       <a href="vinduecheck"><div class="menu2">Check vinduer</div></a><br/>\
+      <a href="internet"><div class="menu2">Internet</div></a><br/>\
       <a href="svar"><div class="menu1">Typiske spørgsmål</div></a><br/>\
       <a href="kontakter"><div class="menu1">Kontakter</div></a><br/>\
       <a href="links"><div class="menu1">Nyttige Links</div></a></p>\
