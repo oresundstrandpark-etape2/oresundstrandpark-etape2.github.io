@@ -1,125 +1,158 @@
-<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
 <html>
-<head>
-  <link href="images/styles.css" rel="stylesheet" type="text/css">
-  <link rel="shortcut icon" type="image/png" href="images/beach.png">
-  <title>HowToPost</title>
-</head>
-<body style="background-color: rgb(230, 230, 250);">
-<br>
-
-<h1>
-<center>HowToPost - Guide til (gratis) foreningshjemmesider på github<br>
-</center>
-</h1>
-
-<p style="margin-left: 40px;">
-</p>
-
-<hr style="width: 100%; height: 2px;">
-<p style="margin-left: 40px; text-align: center;">Nedenstående virker på Windows, Mac og Linux.
-  <br><br><I>Alle i bestyrelsen kan redigere, der er historik, ændringer kan rules tilbage, det er globalt anvendt, tager 1-5 minutter at opdatere...</I></p>
-  <br>
-<h2 style="margin-left: 40px;">Andre kilder:</h2>
-
-<ul>
-  <ul style="list-style-type: disc;">
-    <li>Pages online for free <a href="http://docsbeta.pinegrow.com/host-html-website-github-pages-free/">http://docsbeta.pinegrow.com/host-html-website-github-pages-free/</a></li>
-    <li>Hvad er github <a href="https://pages.github.com" target="_blank"> https://pages.github.com</a></li>
-    <li>Søg på gitpages on <a href="https://www.youtube.com/results?search_query=github" target="_blank">youtube</a></li>
-  </ul>
-</ul>
-
-<h2 style="margin-left: 40px;"><br>
-</h2>
-
-<h2 style="margin-left: 40px;">Github - Kun første gang</h2>
-
-<div style="margin-left: 40px;">
-<ol>
-  <li>Opret login til <a href="https://github.com/join" target="_blank">github</a>. Click på link eller åben din browser og gå til github.com. Her kan du signe up med username, email, password, så du har en konto. Når du så har en konto, kan du bede Administrator tilføje dig som 'Collaborator'</li>
-  <li>Installer git værktøjer fra <a href="https://git-scm.com/downloads" target="_blank">git-scm.com/download</a>. Click på link eller åben din browser og gå til . Her kan du downloade programmet og dernæst åbne det for at installere.</li>
-  <li>Alternativt download GitHub Desktop <a href="https://desktop.github.com/" target="_blank">git desktop</a>, hvis du hellere vil anvende GUI fremfor kommando-linje... Click på link eller åben din browser og gå til. Her kan du downloade programmet og dernæst åbne det for at installere.</li>
-  <li>Du skal nu lave en arbejdskopi af hjemmesiderne på din PC, hvor du kan lave ændringer, som du afsluttende sender tilbage / 'commiter', efter at du har lavet dine ændringer. Du kan 'clone' hjemmesiderne til din PC, hvis du følger starten i Desktop programmet. Hver gang du skal lave ændringer, kan du først clicke på "Fetch Origin" og dernæst "Pull origin", om andre har lavet ændringer i mellemtiden, så du har seneste filer. Hvis du anvender kommando-linje, så kør denne kommando fra den sti, hvor du vil have den lokale kopi:</li>
-	<ul style="margin-left: 40px;">
-	<p> F.eks. : "git clone https://github.com/oresundstrandpark-etape2/oresundstrandpark-etape2.github.io.git"</p>
-	</ul>
-  <li>Efter hver ændring skal du så lave 'commit til master' og dernæst push - som gemmer dine ændringer til github. Du kan dernæst checke hjemmesiderne kort tid efter og se, om dine ændringer ser ud som forventet.</li>
-</ol>
-</div>
-
-
-<p style="margin-left: 40px;">
-Dit brugerid på github skal sættes op til at være 'collaborator' før du kan tilføje dokumenter. Kontakt web administrator for at blive tilføjet.<br>
-</p>
-
-<h2 style="margin-left: 40px;"><br></h2>
-
-<h2 style="margin-left: 40px;">Følgende trin for at uploade et nyt referat:</h2>
-
-<h3 style="margin-left: 40px;">For pdf upload</h3>
-
-<ul>
-  <ul style="list-style-type: disc;">
-    <li>placer pdf-filen i dokumenter-folderen som eksempelvis referat_YYYYMMDD.pdf</li>
-  </ul>
-</ul>
-
-<h3 style="margin-left: 40px;">For word til html</h3>
-
-<ul style="margin-left: 40px;">
-  <li>Brug https://word2cleanhtml.com/ til at konvertere Word til HTML</li>
-  <li>Åben web-sitet, og dernæst Word-dokumentet. Markere alt i Word og copy-paste til web-sitet</li>
-  <li>Tryk 'Convert to clean html', og kopier indholdet tilbage til en ny html-fil, eksempelvis kaldet dokumenter\referat_YYYYMMDD.html</li>
-  <li>Kopier html-header fra referat_20161101.html til nyt dokument</li>
-  <li>Sikre, at Encoding er UTF8, så æøå vises korrekt (brug eksempelvis NotePad++ værktøjet)</li>
-</ul>
-
-<h3 style="margin-left: 40px;">Opdater index.html</h3>
-
-<ul>
-  <ul style="list-style-type: disc;">
-    <li>Tilføj en sektion til index.html med link til den nye referat_YYYYMMDD.html fil</li>
-  </ul>
-</ul>
-
-<h3 style="margin-left: 40px;">Opdater referat.html</h3>
-
-<ul>
-  <ul style="list-style-type: disc;">
-    <li>Tilføj en linje til referat.html med link til den nye referat_YYYYMMDD.html fil</li>
-  </ul>
-</ul>
-
-<h3 style="margin-left: 40px;">Upload to github</h3>
-
-<ul>
-  <ul style="list-style-type: disc;">
-    <li>Kør a.bat {kommentar} eller .\a.sh (mac/linux), eksempelvis "a.bat referat1nov"; eller brug git kommandoer (git add, git commit, git push som omtalt i andre kilder)</li>
-  </ul>
-</ul>
-
-<h3 style="margin-left: 40px;">Post-check</h3>
-
-<ul>
-
-  <ul style="list-style-type: disc;">
-    <li>Check hvordan det ser ud på f.eks. : https://oresundstrandpark-etape2.github.io - det tager et par minuter efter upload før siderne er opdaterede.<br>
-    </li>
-  </ul>
-</ul>
-
-<br>
-
-<hr style="width: 100%; height: 2px;"><br>
-
-<h1 style="margin-left: 40px;">Ny hurtigere metode</h1>
-<p style="margin-left: 40px;">Kræver installation af Python (<a href="https://www.python.org/downloads/" target="_blank">https://www.python.org/downloads/</a>) og Pandoc (<a href="https://pandoc.org/installing" target="_blank">https://pandoc.org/installing</a>)</p>
-<p style="margin-left: 40px;">1. Placer Word og PDF dokumenter i Publish folder</p>
-<p style="margin-left: 40px;">2. Kør kommando : python publish.py EF-2-moede-07012019 20190107</p>
-<p style="margin-left: 40px;">3. Kør a.bat {kommentar} eller .\a.sh (mac/linux), eksempelvis "a.bat referat1nov"; eller brug git kommandoer (git add, git commit, git push som omtalt i andre kilder)</p>
-<p style="margin-left: 40px;">4. Check hvordan det ser ud på f.eks. : <a href="https://oresundstrandpark-etape2.github.io" target="_blank">https://oresundstrandpark-etape2.github.io</a></p>
-<br>
-</p>
-
-</body></html>
+  <head>
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8">
+    <meta http-equiv="content-language" content="dk">
+    <link href="images/styles.css" rel="stylesheet" type="text/css">
+    <link rel="shortcut icon" type="image/png" href="images/beach.png">
+    <title>HowToPost</title>
+  </head>
+  <body style="background-color: rgb(230, 230, 250);">
+    <br>
+    <h1>
+      <center>HowToPost - Guide til (gratis) foreningshjemmesider på github<br>
+      </center>
+    </h1>
+    <p style="margin-left: 40px;">
+    </p>
+    <hr style="width: 100%; height: 2px;">
+    <p style="margin-left: 40px; text-align: center;">Nedenstående virker på
+      Windows, Mac og Linux. <br>
+      <br>
+      <i>Alle i bestyrelsen kan redigere, der er historik, ændringer kan rules
+        tilbage, det er globalt anvendt, tager 1-5 minutter at opdatere...</i></p>
+    <br>
+    <h2 style="margin-left: 40px;">Andre kilder:</h2>
+    <ul>
+      <ul style="list-style-type: disc;">
+        <li>Pages online for free <a href="http://docsbeta.pinegrow.com/host-html-website-github-pages-free/">http://docsbeta.pinegrow.com/host-html-website-github-pages-free/</a></li>
+        <li>Hvad er github <a href="https://pages.github.com" target="_blank">
+            https://pages.github.com</a></li>
+        <li>Søg på gitpages on <a href="https://www.youtube.com/results?search_query=github"
+            target="_blank">youtube</a></li>
+      </ul>
+    </ul>
+    <h2 style="margin-left: 40px;"><br>
+    </h2>
+    <h2 style="margin-left: 40px;">Github - Kun første gang</h2>
+    <div style="margin-left: 40px;">
+      <ol>
+        <li>Opret login til <a href="https://github.com/join" target="_blank">github</a>.
+          Click på link eller åben din browser og gå til github.com. Her kan du
+          signe up med username, email, password, så du har en konto. Når du så
+          har en konto, kan du bede Administrator tilføje dig som 'Collaborator'</li>
+        <li>Installer git værktøjer fra <a href="https://git-scm.com/downloads"
+            target="_blank">git-scm.com/download</a>. Click på link eller åben
+          din browser og gå til . Her kan du downloade programmet og dernæst
+          åbne det for at installere.</li>
+        <li>Alternativt download GitHub Desktop <a href="https://desktop.github.com/"
+            target="_blank">git desktop</a>, hvis du hellere vil anvende GUI
+          fremfor kommando-linje... Click på link eller åben din browser og gå
+          til. Her kan du downloade programmet og dernæst åbne det for at
+          installere.</li>
+        <li>Du skal nu lave en arbejdskopi af hjemmesiderne på din PC, hvor du
+          kan lave ændringer, som du afsluttende sender tilbage / 'commiter',
+          efter at du har lavet dine ændringer. Du kan 'clone' hjemmesiderne til
+          din PC, hvis du følger starten i Desktop programmet. Hver gang du skal
+          lave ændringer, kan du først clicke på "Fetch Origin" og dernæst "Pull
+          origin", om andre har lavet ændringer i mellemtiden, så du har seneste
+          filer. Hvis du anvender kommando-linje, så kør denne kommando fra den
+          sti, hvor du vil have den lokale kopi:</li>
+        <ul style="margin-left: 40px;">
+          <p> F.eks. : "git clone
+https://github.com/oresundstrandpark-etape2/oresundstrandpark-etape2.github.io.git"</p>
+        </ul>
+        <li>Efter hver ændring skal du så lave 'commit til master' og dernæst
+          push - som gemmer dine ændringer til github. Du kan dernæst checke
+          hjemmesiderne kort tid efter og se, om dine ændringer ser ud som
+          forventet.</li>
+      </ol>
+    </div>
+    <p style="margin-left: 40px;">
+      Dit brugerid på github skal sættes op til at være 'collaborator' før du
+      kan tilføje dokumenter. Kontakt web administrator for at blive tilføjet.<br>
+    </p>
+    <h2 style="margin-left: 40px;"><br>
+    </h2>
+    <h2 style="margin-left: 40px;">Følgende trin for at uploade et nyt referat:</h2>
+    <h3 style="margin-left: 40px;">For pdf upload</h3>
+    <ul>
+      <ul style="list-style-type: disc;">
+        <li>placer pdf-filen i dokumenter-folderen som eksempelvis
+          referat_YYYYMMDD.pdf</li>
+      </ul>
+    </ul>
+    <h3 style="margin-left: 40px;">For word til html</h3>
+    <ul style="margin-left: 40px;">
+      <li>Brug https://word2cleanhtml.com/ til at konvertere Word til HTML</li>
+      <li>Åben web-sitet, og dernæst Word-dokumentet. Markere alt i Word og
+        copy-paste til web-sitet</li>
+      <li>Tryk 'Convert to clean html', og kopier indholdet tilbage til en ny
+        html-fil, eksempelvis kaldet dokumenter\referat_YYYYMMDD.html</li>
+      <li>Kopier html-header fra referat_20161101.html til nyt dokument</li>
+      <li>Sikre, at Encoding er UTF8, så æøå vises korrekt (brug eksempelvis
+        NotePad++ værktøjet)</li>
+    </ul>
+    <h3 style="margin-left: 40px;">Opdater index.html</h3>
+    <ul>
+      <ul style="list-style-type: disc;">
+        <li>Tilføj en sektion til index.html med link til den nye
+          referat_YYYYMMDD.html fil</li>
+      </ul>
+    </ul>
+    <h3 style="margin-left: 40px;">Opdater referat.html</h3>
+    <ul>
+      <ul style="list-style-type: disc;">
+        <li>Tilføj en linje til referat.html med link til den nye
+          referat_YYYYMMDD.html fil</li>
+      </ul>
+    </ul>
+    <h3 style="margin-left: 40px;">Upload to github</h3>
+    <ul>
+      <ul style="list-style-type: disc;">
+        <li>Kør a.bat {kommentar} eller .\a.sh (mac/linux), eksempelvis "a.bat
+          referat1nov"; eller brug git kommandoer (git add, git commit, git push
+          som omtalt i andre kilder)</li>
+      </ul>
+    </ul>
+    <h3 style="margin-left: 40px;">Post-check</h3>
+    <ul>
+      <ul style="list-style-type: disc;">
+        <li>Check hvordan det ser ud på f.eks. :
+          https://oresundstrandpark-etape2.github.io - det tager et par minuter
+          efter upload før siderne er opdaterede.<br>
+        </li>
+      </ul>
+    </ul>
+    <br>
+    <hr style="width: 100%; height: 2px;"><br>
+    <h1 style="margin-left: 40px; text-align: center;">Ny hurtigere metode</h1>
+    <p style="margin-left: 40px;">Kræver installation af Python (<a href="https://www.python.org/downloads/"
+        target="_blank">https://www.python.org/downloads/</a>) og Pandoc (<a href="https://pandoc.org/installing"
+        target="_blank">https://pandoc.org/installing</a>)</p>
+    <p style="margin-left: 40px;">1. Placer Word og PDF dokumenter i Publish
+      folder</p>
+    <p style="margin-left: 40px;">2. Kør kommando : python publish.py
+      EF-2-moede-07012019 20190107</p>
+    <p style="margin-left: 40px;">3. Kør a.bat {kommentar} eller .\a.sh
+      (mac/linux), eksempelvis "a.bat referat1nov"; eller brug git kommandoer
+      (git add, git commit, git push som omtalt i andre kilder)</p>
+    <p style="margin-left: 40px;">4. Check hvordan det ser ud på f.eks. : <a href="https://oresundstrandpark-etape2.github.io"
+        target="_blank">https://oresundstrandpark-etape2.github.io</a></p>
+    <p style="margin-left: 40px;"><a href="https://oresundstrandpark-etape2.github.io"
+        target="_blank"><br>
+      </a></p>
+    <hr style="width: 100%; color: white; margin-left: auto; margin-right: auto;">
+    <h1 style="text-align: center;"><b>Editor</b></h1>
+    <p>&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; Som editor HTML visual kan
+      anbefales : BlueGriffon - hent den fra bluegriffon.org - check altid filer
+      for UTF-8 og danske karakterer.</p>
+    <p><span style="color: #0000ee;"><br>
+      </span></p>
+    <p style="margin-left: 40px;"><a href="https://oresundstrandpark-etape2.github.io"
+        target="_blank"><br>
+      </a></p>
+    <br>
+    <p></p>
+  </body>
+</html>
