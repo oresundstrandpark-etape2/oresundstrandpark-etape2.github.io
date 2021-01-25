@@ -11,8 +11,8 @@ import datetime
 # Check arguments
 argnum = len(sys.argv)
 if argnum < 3:
-    print "Koer programmet som: python publish.py document YYYYMMDD"
-    print "Eksempelvis: python publish.py EF-2-moede-07012019 20190107"
+    print("Koer programmet som: python publish.py document YYYYMMDD")
+    print("Eksempelvis: python publish.py EF-2-moede-07012019 20190107")
     sys.exit(0)
 
 # Dates
@@ -24,15 +24,15 @@ longdatenow = datetime.date.strftime(now, "%d. %b %Y")
 # Pre-check files
 file = sys.argv[1] + ".docx"
 if not os.path.exists(file):
-    print "Fil " + file + " blev ikke fundet"
+    print("Fil " + file + " blev ikke fundet")
     sys.exit(0)
 file = sys.argv[1] + ".pdf"
 if not os.path.exists(file):
-    print "Fil " + file + " blev ikke fundet"
+    print("Fil " + file + " blev ikke fundet")
     sys.exit(0)
 
 # Convert Word to HTML
-print "Konverting af word til html"
+print("Konverting af word til html")
 cmd = "pandoc " + sys.argv[1] + ".docx -o out.html"
 os.system(cmd)
 
@@ -81,9 +81,9 @@ if index.find(indextmpl) == -1:
     index = index.replace(find, find + "\r\n\t\t\t" + indextmpl)
     with open(indexfile, "w") as myfile:
         myfile.write(index)
-    print "Opdateret: index.html"
+    print("Opdateret: index.html")
 else:
-    print "Allerede opdateret: index.html"  
+    print("Allerede opdateret: index.html") 
 
 # Update referat
 referatfile = "../referater.html"
@@ -95,9 +95,9 @@ if referat.find(txt) == -1:
     referat = referat.replace(find, find + "\r\n\t\t\t" + txt)
     with open(referatfile, "w") as myfile:
         myfile.write(referat)
-    print "Opdateret: referater.html"
+    print("Opdateret: referater.html")
 else:
-    print "Allerede opdateret: referater.html"
+    print("Allerede opdateret: referater.html")
 
 # Cleanup
 os.remove(newhtml)
