@@ -28,11 +28,11 @@ if not os.path.exists(file):
     sys.exit(0)
 file = sys.argv[1] + ".pdf"
 if not os.path.exists(file):
-    print("Fil " + file + " blev ikke fundet")
+    print("File " + file + " not found")
     sys.exit(0)
 
 # Convert Word to HTML
-print("Konverting af word til html")
+print("Converting of word to html")
 cmd = "pandoc " + sys.argv[1] + ".docx -o out.html"
 os.system(cmd)
 
@@ -45,9 +45,11 @@ else:
     os.system("cp " + origpdf + " " + newpdf)
 
 # Read referat
+print("Reading converted referat")
 with open("out.html", "r") as myfile:
     out = myfile.read()
 os.remove("out.html")
+print("Read converted referat")
 
 # Read template
 with open("template.html", "r") as myfile:
