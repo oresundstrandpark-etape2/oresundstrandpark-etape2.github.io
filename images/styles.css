@@ -71,6 +71,15 @@ hr
 	color: white
 }
 
+.site a {
+  color: white;
+  text-decoration: none; /* optional: remove underline */
+}
+
+.site a:hover {
+  text-decoration: underline; /* optional: underline on hover */
+}
+
 .logo-bar {
 	top: 20px;
 	height: 80px;
