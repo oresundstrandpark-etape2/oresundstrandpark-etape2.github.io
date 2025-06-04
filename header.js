@@ -6,7 +6,7 @@ document.write('\
   </head>\
   <tr class="logobackground">\
     <td colspan="2" class="logobackground">\
-    <p><b>GAMMEL WEB-SITE - FIND NY SIDE HER <a href="https://oeresundstrandparketape2.probo.dk">PROBO</a><b></p>\
+    <p><b>GAMMEL WEB-SITE - FIND NY SIDE HER <a href="https://oeresundstrandparketape2.probo.dk" target="_blank">PROBO</a></b></p>\
     <img src="images/top.gif" alt="ejerforeningen &oslash;resund strandpark, etape ii" class="logo"/>\
     </td>\
   </tr>\
