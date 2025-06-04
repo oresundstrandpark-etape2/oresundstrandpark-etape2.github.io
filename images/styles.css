@@ -73,6 +73,7 @@ hr
 	align-items: center;
 	vertical-align: middle;
 	text-align: center;
+	display: inline-block; /* Important for centering */
 }
 
 .site a {
