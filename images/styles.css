@@ -64,14 +64,16 @@ hr
 	color: white !important;
 }
 
+.site 
+{
+	font-size: 14px;
+	font-weight : bold;
+	color: white
+}
+
 .logo-bar {
 	top: 20px;
 	height: 80px;
-}
-
-.logobackground td {
-  text-align: center;
-  vertical-align: middle;
 }
 
 .titel 
