@@ -59,16 +59,15 @@ hr
 	top: 0;
 	height: 20px;
 	background-color: #1a56d5;
-	align-items: center;
-	vertical-align: middle;
-	color: white !important;
 }
 
 .site 
 {
 	font-size: 14px;
 	font-weight : bold;
-	color: white
+	color: white;
+	align-items: center;
+	vertical-align: middle;
 }
 
 .site a {
