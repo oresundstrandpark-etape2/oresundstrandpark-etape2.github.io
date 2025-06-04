@@ -9,7 +9,7 @@ document.write('\
       <div class="site">\
         <b>\
           <a href="https://oeresundstrandparketape2.probo.dk" target="_blank">\
-            GAMMEL WEB-SITE - FIND NY SIDE HER - PROBO\
+            OBS! GAMMEL WEB-SITE - FIND NY SIDE HER - PROBO\
           </a>\
         </b>\
       </div>\

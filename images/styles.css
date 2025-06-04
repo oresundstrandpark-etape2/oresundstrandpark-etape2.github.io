@@ -69,17 +69,17 @@ hr
 	color: white;
 	vertical-align: middle;
 	text-align: center;
-	display: inline-block; /* Important for centering */
-	line-height: 20px; /* vertically centers single-line text */
+	display: inline-block;
+	line-height: 20px;
 }
 
 .site a {
   color: white;
-  text-decoration: none; /* optional: remove underline */
+  text-decoration: none;
 }
 
 .site a:hover {
-  text-decoration: underline; /* optional: underline on hover */
+  text-decoration: underline wavy;
 }
 
 .logo-bar {
