@@ -60,6 +60,7 @@ hr
 	height: 20px;
 	background-color: #1a56d5;
 	align-items: center;
+	vertical-align: middle;
 	color: white !important;
 }
 
