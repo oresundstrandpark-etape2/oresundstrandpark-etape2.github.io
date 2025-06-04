@@ -5,13 +5,13 @@ document.write('\
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" crossorigin="anonymous">\
   </head>\
   <tr class="logobackground site-bar">\
-    <td colspan="2">\
-    <center><b><h1><a href="https://oeresundstrandparketape2.probo.dk" target="_blank">GAMMEL WEB-SITE - FIND NY SIDE HER - PROBO</a></h1></b></center>\
+    <td colspan="2" class="site-bar">\
+      <b><h1><a href="https://oeresundstrandparketape2.probo.dk" target="_blank">GAMMEL WEB-SITE - FIND NY SIDE HER - PROBO</a></h1></b>\
     </td>\
   </tr>\
   <tr class="logobackground logo-bar">\
     <td colspan="2">\
-    <img src="images/top.gif" alt="ejerforeningen &oslash;resund strandpark, etape ii" class="logo"/>\
+      <img src="images/top.gif" alt="ejerforeningen &oslash;resund strandpark, etape ii" class="logo"/>\
     </td>\
   </tr>\
   <tr>\
