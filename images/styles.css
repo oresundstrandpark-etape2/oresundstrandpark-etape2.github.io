@@ -59,6 +59,8 @@ hr
 	top: 0;
 	height: 15px;
 	background-color: #1a56d5;
+	align-items: center; 
+	justify-content: center;
 }
 
 .logo-bar {
