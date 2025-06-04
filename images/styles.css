@@ -70,7 +70,7 @@ hr
 	vertical-align: middle;
 	text-align: center;
 	display: inline-block; /* Important for centering */
-	line-height: 14px; /* vertically centers single-line text */
+	line-height: 20px; /* vertically centers single-line text */
 }
 
 .site a {
