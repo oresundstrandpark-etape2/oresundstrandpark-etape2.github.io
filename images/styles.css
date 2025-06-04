@@ -56,8 +56,13 @@ hr
 }
 
 .site-bar {
-	top: 0;
+	display: flex;               /* enables align-items to work */
+	align-items: center;         /* vertically centers content */
+	justify-content: center;     /* horizontally centers content (optional) */
 	height: 20px;
+	background-color: #1a56d5;
+	color: white !important;
+	position: relative;          /* needed if you want it inside .logobackground */
 }
 
 .site 
