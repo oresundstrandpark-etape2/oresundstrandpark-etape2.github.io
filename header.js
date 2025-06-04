@@ -4,10 +4,12 @@ document.write('\
   <script src="images/script.js"></script>\
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" crossorigin="anonymous">\
   </head>\
-  <tr class="logobackground site-bar">\
+  <tr class="logobackground">\
     <td colspan="2">\
-      <div class="site">\
-        <b><a href="https://oeresundstrandparketape2.probo.dk" target="_blank">GAMMEL WEB-SITE - FIND NY SIDE HER - PROBO - https://oeresundstrandparketape2.probo.dk - ÅBNER I NYT VINDUE</a></b>\
+      <div class="site-bar">\
+        <div class="site">\
+          <b><a href="https://oeresundstrandparketape2.probo.dk" target="_blank">GAMMEL WEB-SITE - FIND NY SIDE HER - PROBO - https://oeresundstrandparketape2.probo.dk - ÅBNER I NYT VINDUE</a></b>\
+        </div>\
       </div>\
     </td>\
   </tr>\
