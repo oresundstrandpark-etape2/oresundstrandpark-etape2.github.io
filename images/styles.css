@@ -63,6 +63,7 @@ hr
 	background-color: #1a56d5;
 	color: white !important;
 	position: relative;          /* needed if you want it inside .logobackground */
+	line-height: 1; /* Helps eliminate vertical jitter */
 }
 
 .site 
