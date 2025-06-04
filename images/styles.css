@@ -68,6 +68,11 @@ hr
 	height: 80px;
 }
 
+.logobackground td {
+  text-align: center;
+  vertical-align: middle;
+}
+
 .titel 
 {
 	font-size: 24px;
