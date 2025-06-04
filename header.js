@@ -7,7 +7,7 @@ document.write('\
   <tr class="logobackground site-bar">\
     <td colspan="2" style="text-align: center; vertical-align: middle;">\
       <div class="site">\
-        <b><a href="https://oeresundstrandparketape2.probo.dk" target="_blank">GAMMEL WEB-SITE - FIND NY SIDE HER - PROBO</a></b>\
+        <b><a href="https://oeresundstrandparketape2.probo.dk" target="_blank">GAMMEL WEB-SITE - FIND NY SIDE HER - PROBO - https://oeresundstrandparketape2.probo.dk - ÅBNER I NYT VINDUE</a></b>\
       </div>\
     </td>\
   </tr>\
