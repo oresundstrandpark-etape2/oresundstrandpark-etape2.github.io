@@ -5,7 +5,10 @@ document.write('\
   <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css" integrity="sha384-UHRtZLI+pbxtHCWp1t77Bi1L4ZtiqrqD80Kn4Z8NTSRyMA2Fd33n5dQ8lWUE00s/" crossorigin="anonymous">\
   </head>\
   <tr class="logobackground">\
-    <td colspan="2" class="logobackground"><img src="images/top.gif" alt="ejerforeningen &oslash;resund strandpark, etape ii" class="logo" /></td>\
+    <td colspan="2" class="logobackground">\
+    <p><b>GAMMEL WEB-SITE - FIND NY SIDE HER <a href="https://oeresundstrandparketape2.probo.dk">PROBO</a><b></p>\
+    <img src="images/top.gif" alt="ejerforeningen &oslash;resund strandpark, etape ii" class="logo"/>\
+    </td>\
   </tr>\
   <tr>\
     <td class="menu" valign="top"><p>&nbsp;</p>\
