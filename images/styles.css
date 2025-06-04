@@ -60,7 +60,7 @@ hr
 	height: 20px;
 	background-color: #1a56d5;
 	align-items: center;
-	color: white;
+	color: white !important;
 }
 
 .logo-bar {
