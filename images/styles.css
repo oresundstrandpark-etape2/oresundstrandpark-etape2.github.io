@@ -62,6 +62,7 @@ hr
 	align-items: center;
 	justify-content: center;
 	text-align: center;
+	display: inline;
 }
 
 .site 
