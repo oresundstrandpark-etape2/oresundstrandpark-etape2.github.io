@@ -6,7 +6,7 @@ document.write('\
   </head>\
   <tr class="logobackground site-bar">\
     <td colspan="2">\
-      <b><a href="https://oeresundstrandparketape2.probo.dk" target="_blank">GAMMEL WEB-SITE - FIND NY SIDE HER - PROBO</a></b>\
+      <b><center><a href="https://oeresundstrandparketape2.probo.dk" target="_blank">GAMMEL WEB-SITE - FIND NY SIDE HER - PROBO</a></center></b>\
     </td>\
   </tr>\
   <tr class="logobackground logo-bar">\
