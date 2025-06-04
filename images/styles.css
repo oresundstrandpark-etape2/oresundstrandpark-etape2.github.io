@@ -50,19 +50,21 @@ hr
 {
 	display: block;
 	position: fixed;
-	height: 80px;
 	width: 100%;
 	background-color: #1935c5;
 	z-index: 11;
+	color: white;
 }
 
 .site-bar {
 	top: 0;
+	height: 15px;
+	background-color: #1a56d5;
 }
 
 .logo-bar {
 	top: 80px;
-	background-color: #1a56d5;
+	height: 80px;
 }
 
 .titel 
